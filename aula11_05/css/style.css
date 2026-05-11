@@ -1,0 +1,37 @@
+/* colocar css em um arquivo externo, é como o nome diz, mudança de estilo externo */
+h2 {
+    color: blue;
+}
+
+#listaDeIngredientes {
+    color: orange;
+}
+
+.orange {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+section > p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+img {
+    width: 30%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#preparo {
+    border-style: dashed;
+    border-color: green;
+    border-width: 1px;
+    padding: 12px;
+    margin: 1.45%;
+}
