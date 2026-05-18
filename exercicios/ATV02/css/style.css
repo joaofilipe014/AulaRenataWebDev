@@ -1,0 +1,165 @@
+/* Estilo geral da página */
+body {
+    background-color: #eeeeee;
+    color: #222222;
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Agrupamento de tags */
+h1, h2 {
+    color: #b30000;
+    text-align: center;
+}
+
+/* Seletor de tag */
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #111111;
+    padding: 30px;
+    border-bottom: 5px solid #b30000;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #ff3333;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Menu */
+.menu {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 25px auto;
+    padding: 15px;
+    border: 2px solid #b30000;
+    border-radius: 8px;
+}
+
+.menu h2 {
+    color: #111111;
+}
+
+.menu ul {
+    text-align: center;
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.menu li {
+    margin: 8px;
+}
+
+a {
+    color: #b30000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-shadow: 0.75px 0.75px #b30000;
+}
+
+/* Conteúdo principal */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Box Model: margin, padding e border */
+.caixa {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #222222;
+    border-radius: 8px;
+}
+
+.destaque {
+    text-align: center;
+    border-left: 8px solid #b30000;
+}
+
+.logo-git {
+    width: 200px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Seletor de id */
+#backend {
+    background-color: #f8f8f8;
+}
+
+.artigo {
+    background-color: #f5f5f5;
+}
+
+.dica {
+    background-color: #fff0f0;
+    border: 2px dashed #b30000;
+}
+
+.video {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    max-width: 650px;
+    height: 330px;
+    border: 3px solid #b30000;
+    border-radius: 8px;
+}
+
+/* Listas */
+.lista-passos {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+.lista-comandos {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+.lista-passos li,
+.lista-comandos li {
+    margin-bottom: 8px;
+}
+
+/* Rodapé */
+.voltar {
+    text-align: center;
+}
+
+footer {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 5px solid #b30000;
+}
+
+footer p {
+    text-align: center;
+    margin: 5px;
+}
