@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Tabela</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        caption {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ff6633;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            border: 2px solid #ff6633;
+            margin: 20px auto;
+        }
+
+        th {
+            background-color: #ff6633;
+            color: white;
+            border: 2px solid #ff6633;
+            padding: 15px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        td {
+            border: 2px solid #ff6633;
+            padding: 15px;
+            text-align: center;
+            height: 50px;
+            font-size: 14px;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f5f5f5;
+        }
+
+        tr:nth-child(odd) td {
+            background-color: #ffffff;
+        }
+
+        tr th:first-child {
+            background-color: #ff6633;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Minha Rotina Semanal</caption>
+
+        <tr>
+            <th colspan="2">Período / Horário</th>
+            <th>Domingo</th>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+            <th>Sábado</th>
+        </tr>
+        
+        <tr>
+            <th rowspan="2">MANHÃ</th>
+            <td colspan="7"><strong>06:00 - 09:00</strong><br>Acordar + Café</td>
+        </tr>
+        <tr>
+            <td><strong>09:00 - 12:00</strong><br>Atividades</td>
+            <td>Descanso</td>
+            <td>Estudar</td>
+            <td>Exercício</td>
+            <td>Trabalho</td>
+            <td>Estudar</td>
+            <td>Aulas</td>
+            <td>Lazer</td>
+        </tr>
+        
+        <tr>
+            <th rowspan="3">TARDE</th>
+            <td colspan="7"><strong>12:00 - 13:00</strong><br>Almoço</td>
+        </tr>
+        <tr>
+            <td><strong>13:00 - 16:00</strong><br>Trabalho</td>
+            <td>Passeio</td>
+            <td>Trabalho</td>
+            <td>Projeto</td>
+            <td>Estudar</td>
+            <td>Trabalho</td>
+            <td>Descanso</td>
+            <td>Compras</td>
+        </tr>
+        <tr>
+            <td colspan="7"><strong>16:00 - 18:00</strong><br>Lanche</td>
+        </tr>
+        
+        <tr>
+            <th rowspan="3">NOITE</th>
+            <td colspan="7"><strong>18:00 - 19:00</strong><br>Jantar</td>
+        </tr>
+        <tr>
+            <td><strong>19:00 - 22:00</strong><br>Lazer</td>
+            <td>Repouso</td>
+            <td>Leitura</td>
+            <td>Série</td>
+            <td>Amigos</td>
+            <td>Hobby</td>
+            <td>Cinema</td>
+            <td>Repouso</td>
+        </tr>
+        <tr>
+            <td colspan="7"><strong>22:00 - 06:00</strong><br>Dormir</td>
+        </tr>
+    </table>
+</body>
+</html>
