@@ -7,18 +7,19 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="progress-bar" id="progressBar"></div>
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">João Filipe</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">☰</button>
       <nav class="nav" id="mainNav" aria-label="Menu principal">
         <ul>
-          <li><a href="index.html">Início</a></li>
+          <li><a href="index.html" aria-current="page">Início</a></li>
           <li><a href="sobre.html">Sobre</a></li>
           <li><a href="projetos.html">Projetos</a></li>
           <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">☰</button>
       <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">🌙</button>
     </div>
   </header>
@@ -31,26 +32,29 @@
         </figure>
 
         <div class="hero-content">
+          <span class="hero-tag">Engenharia de Software • Desenvolvimento Web • Backend</span>
           <h1 class="enter-anim">João Filipe</h1>
-          <p class="lead enter-anim">Estudante do 2º ano de Engenharia de Software — em busca da primeira oportunidade em tecnologia.</p>
-          <p class="enter-anim">Desenvolvimento web, interesse por backend. Conhecimentos em <strong>HTML, CSS, JavaScript, SQL, Git</strong>. Estudando <strong>Java</strong> e <strong>Spring Boot</strong>. Desenvolvendo o projeto <em>ADM Manager</em>.</p>
+          <p class="lead enter-anim">Estudante do 2º ano de Engenharia de Software com foco em soluções para web e backend, buscando oportunidades de aplicar conhecimento técnico em projetos reais e acadêmicos.</p>
 
-          <div class="tech-list enter-anim" aria-hidden="false">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>SQL</span>
-            <span>Git</span>
+          <div class="hero-summary enter-anim">
+            <p><strong>ADM Manager</strong> em desenvolvimento, com atenção em usabilidade e arquitetura de software.</p>
+            <p>Conhecimentos práticos em <strong>HTML, CSS, JavaScript, SQL</strong> e versionamento com <strong>Git</strong>.</p>
+          </div>
+
+          <div class="hero-metrics enter-anim">
+            <span>2º ano</span>
+            <span>Full stack em evolução</span>
+            <span>Projeto acadêmico ativo</span>
           </div>
 
           <div class="hero-actions enter-anim">
             <a class="btn primary" href="projetos.html">Conhecer Projetos</a>
-            <a class="btn" href="sobre.html">Mais sobre mim</a>
+            <a class="btn secondary" href="sobre.html">Mais sobre mim</a>
           </div>
 
           <div class="social enter-anim">
             <a href="https://github.com/joaofilipe014" target="_blank" rel="noopener">GitHub</a>
-            <a href="www.linkedin.com/in/joaofilipergperalta" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/joaofilipergperalta" target="_blank" rel="noopener">LinkedIn</a>
             <a href="mailto:joaofilipe014@edu.unifil.br">E-mail</a>
           </div>
         </div>
